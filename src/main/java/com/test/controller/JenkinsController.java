@@ -10,4 +10,9 @@ public class JenkinsController {
     public String jenkins() {
         return "hello, jenkins";
     }
+    @GetMapping("/test")
+    public String jenkinsTest() {
+        return "hello, jenkins test";
+    }
+
 }
